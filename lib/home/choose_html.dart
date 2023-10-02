@@ -3,7 +3,6 @@ import 'package:test_webview/core/router/router.dart';
 import 'package:test_webview/home/home.dart';
 
 class ChooseHtml extends StatelessWidget {
-  const ChooseHtml({super.key});
 
   @override
   Widget build(BuildContext context) {

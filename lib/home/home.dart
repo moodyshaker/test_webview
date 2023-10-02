@@ -6,14 +6,14 @@ import '../constants.dart';
 class Home extends StatefulWidget {
   final String name;
 
-  Home({required this.name});
+  Home({@required this.name});
 
   @override
   State<Home> createState() => _HomeState();
 }
 
 class _HomeState extends State<Home> {
-  late WebViewPlusController _controller;
+  WebViewPlusController _controller;
 
   @override
   Widget build(BuildContext context) {
